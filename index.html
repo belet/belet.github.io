@@ -1,74 +1,156 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+<title>Belet - Etkinlik Rehberiniz</title>
+<link type="text/css" rel="stylesheet" href="css/style.css"/>
+<link type="text/css" rel="stylesheet" href="colors/splash/splash-start.css"/>
+<link type="text/css" rel="stylesheet" href="css/idangerous.swiper.css"/>
+<link type="text/css" rel="stylesheet" href="css/swipebox.css" />
+<link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css' />
+<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+<script src="js/jquery.validate.min.js" type="text/javascript"></script>
+	
+	
+	<style>
+	.degis {
+background-color: transparent;
+}
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="belet.github.io : ">
+.degis:active {
+background-color: rgb(0,52,61);
+}
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+.degis2 {
+background-color: gray;
+}
 
-    <title>belet.github.io</title>
-  </head>
+.degis2:active {
+background-color: rgb(0,52,61);
+}
+</style>
+<style type="text/css">
 
-  <body>
+input[type=checkbox] {
+display:none;
+}
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/belet">View on GitHub</a>
+input[type=checkbox].belediyesec  + label 
+{
+list-style:none; margin:1% 0 2% 4%; padding:5.5% 0; width:28%;height:auto; float:left; display:block; text-align:center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+-webkit-border-radius:110px;-moz-border-radius:110px;border-radius:110px;
+background-color: gray;
+}
 
-          <h1 id="project_title">belet.github.io</h1>
-          <h2 id="project_tagline"></h2>
+input[type=checkbox]:checked.belediyesec + label 
+{
+list-style:none; margin:1% 0 2% 4%; padding:5.5% 0; width:28%;height:auto; float:left; display:block; text-align:center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+-webkit-border-radius:110px;-moz-border-radius:110px;border-radius:110px;
+background-color: rgb(0,52,61);
+}
 
-        </header>
-    </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+</style>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+</head>
+<body>
+  <div id="header" >
+  <a href="start-index.html"><div style="float:right; width:77px" class="gomenu degis"><img src="images/icons/forward.png"/></div></a>
+  <div class="pagination" style="visibility:hidden;"></div>
+  </div>
+  
+  <div class="swiper-container swiper-parent">
+    <div class="swiper-wrapper">
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
+<!--Splash Page-->
+      <div class="swiper-slide sliderbg_splash">
+      <div class="swiper-container swiper-nestedsplash">
+               <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                              <div class="slide-inner">
+                                        <div class="splash_container">	
+                                            <div class="logo">
+                                            <strong><img src="images/icons/elet.png" border="0" /></strong> <br />
+                                            <span>Etkinlik Rehberiniz</span>
+                                            </div>
+                                            
+                                            <ul class="splash_social">
+                                            <li><a href="#"><img src="images/icons_contour/social/facebook.png" alt="" title="" border="0" /></a></li>
+                                            <li><a href="#"><img src="images/icons_contour/social/twitter.png" alt="" title="" border="0" /></a></li>
+                                            <li><a href="#"><img src="images/icons_contour/social/google.png" alt="" title="" border="0" /></a></li>
+                                            <li><a href="#"><img src="images/icons_contour/contact.png" alt="" title="" border="0" /></a></li>
+                                            </ul>
     
+                                            <div class="slide-to-navigate">
+                                            <a href="#" onclick="swiperParent.swipeTo(1);"><img src="colors/splash/images/slide-to-navigate.png" alt="" title="" border="0" /></a> <br />
+                                            gezinmek için sadece kaydırın
+                                            </div>
+                                        </div>
+                                        <!--End of page container-->
+                              </div>
+                    </div>
+              </div>
+              <div class="swiper-scrollbarsplash"></div>
+     </div>
+     </div>
+    
+<!--Menu page-->
+      <div class="swiper-slide sliderbg">
+          <div class="swiper-container swiper-nested">
+                   <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                                  <div class="slide-inner">
+     
+                                        <div class="menu">
+										<div style="font-size:17px; color:white; text-align:center; margin:0 0 0 10px; top: 50px;">Takip Edeceğiniz Belediyeleri Seçebilirsiniz</div>
+                                        <ul>
+	
+                                        <input class="belediyesec" id="thinga" name="thinga" type="checkbox" value="valuable" /><label for="thinga"><li><img src="images/icons/logo.png"/><span>A Belediyesi</span></li></label>
+                                        <input class="belediyesec" id="thingb" name="thingb" type="checkbox" value="valuable" /><label for="thingb"><li><img src="images/icons/logo.png"/><span>B Belediyesi</span></li></label>
+                                        <input class="belediyesec" id="thingc" name="thingc" type="checkbox" value="valuable" /><label for="thingc"><li><img src="images/icons/logo.png"/><span>C Belediyesi</span></li></label>
+                                        <input class="belediyesec" id="thingd" name="thingd" type="checkbox" value="valuable" /><label for="thingd"><li><img src="images/icons/logo.png"/><span>D Belediyesi</span></li></label>
+                                        <input class="belediyesec" id="thinge" name="thinge" type="checkbox" value="valuable" /><label for="thinge"><li><img src="images/icons/logo.png"/><span>E Belediyesi</span></li></label>
+                                        <input class="belediyesec" id="thingf" name="thingf" type="checkbox" value="valuable" /><label for="thingf"><li><img src="images/icons/logo.png"/><span>F Belediyesi</span></li></label>
+                                        <input class="belediyesec" id="thingg" name="thingg" type="checkbox" value="valuable" /><label for="thingg"><li><img src="images/icons/logo.png"/><span>G Belediyesi</span></li></label>
+                                        <input class="belediyesec" id="thingh" name="thingh" type="checkbox" value="valuable" /><label for="thingh"><li><img src="images/icons/logo.png"/><span>H Belediyesi</span></li></label>
+                                        <input class="belediyesec" id="thingi" name="thingi" type="checkbox" value="valuable" /><label for="thingi"><li><img src="images/icons/logo.png"/><span>I Belediyesi</span></li></label>
+                                        </ul>
+                                        <div class="clearfix"></div>
+                                        </div>
+                               
+                                 </div>
+                         </div>
+                   </div>
+                  <div class="swiper-scrollbar"></div>
+          </div> 
+      </div>
+      
 
-  </body>
+       
+     <!--End of pages--> 
+
+    </div>
+
+  </div>
+<script type="text/javascript" src="js/jquery.swipebox.js"></script>
+<script type="text/javascript" src="js/idangerous.swiper-2.1.min.js"></script>
+<script type="text/javascript" src="js/idangerous.swiper.scrollbar-2.1.js"></script>
+<script type="text/javascript" src="js/jquery.tabify.js"></script>
+<script type="text/javascript" src="js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="js/splash.js"></script>
+<script type="text/javascript" src="js/load.js"></script>
+
+</body>
 </html>
