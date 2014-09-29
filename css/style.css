@@ -36,9 +36,8 @@ h2.post_title{ font-size:26px;padding:0 0 20px 0; line-height:28px;}
 
 /*----------bottom bullets pagination---------------*/
 .pagination {position: absolute;left:0px;top:44px;text-align:center; width:100%; 
-background-image: url(img/home2.png);
-background-size:32px 32px;
-background-position: 6% 44px; 
+background-image: url(img/home2.png), url(img/gps.png), url(img/law.png), url(img/calendar.png), url(img/services.png);
+background-position: 6% 44px, 29% 44px, 50% 44px, 71% 44px, 94% 44px; 
 background-repeat: no-repeat;
 background-attachment: fixed;
 
@@ -237,10 +236,10 @@ padding:12px 3%; margin:0 0 15px 0;
 @media screen and (min-width: 800px){
 .pagination {position: absolute;z-index: 100;left:0px;top:44px;text-align:center; width:100%; 
 background-image: url(img/home2.png), url(img/gps.png), url(img/law.png), url(img/calendar.png), url(img/services.png);
+background-position: 8% 44px, 29% 44px, 50% 44px, 71% 44px, 92% 44px; 
 background-repeat: no-repeat;
 background-attachment: fixed;
-background-size:32px 32px, 30px 30px, 32px 32px, 32px 32px, 32px 32px;
-background-position: 8% 44px, 29% 44px, 50% 44px, 71% 44px, 92% 44px; 
+
 background-color: whitesmoke;}
 }
 @media screen and (max-width: 800px) {
