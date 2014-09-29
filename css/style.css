@@ -36,7 +36,7 @@ h2.post_title{ font-size:26px;padding:0 0 20px 0; line-height:28px;}
 
 /*----------bottom bullets pagination---------------*/
 .pagination {position: absolute;left:0px;top:44px;text-align:center; width:100%; 
-background-image: url(img/home2.png), url(img/gps.png), url(img/law.png), url(img/calendar.png), url(img/services.png);
+background: url(img/home2.png), url(img/gps.png), url(img/law.png), url(img/calendar.png), url(img/services.png);
 background-position: 6% 44px, 29% 44px, 50% 44px, 71% 44px, 94% 44px; 
 background-repeat: no-repeat;
 background-attachment: fixed;
