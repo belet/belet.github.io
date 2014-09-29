@@ -5,7 +5,7 @@ a.button_11, a.button_12{color:#FFFFFF;}
 #header{ background-color: transparent;}
 .logo{ text-align:center; margin:auto; padding:50px 0 5px 0;font-size:85px; line-height:60px; letter-spacing:-3px;}
 .logo span{ font-size:40px; letter-spacing:5px;} 
-.logo img{max-width:37%; margin: 0 0 70px 0;}
+.logo img{max-width:50%; margin: 0 0 70px 0;}
 .logo, .logo a{ color:#FFFFFF;}
 
 /* Google web font
@@ -116,7 +116,7 @@ a.map_button{ background:url(../../images/icons/map_pin.png) no-repeat left #29a
 /* CSS Media Queries
 /*-----------------------------------------------------------------------------------*/
 @media screen and (max-width: 800px) {
-.logo{ padding:20px 0 0px 0;font-size:65px; line-height:70px; letter-spacing:-3px;}
+.logo{ padding:60px 0 0px 0;font-size:65px; line-height:70px; letter-spacing:-3px;}
 .logo span{ font-size:30px; letter-spacing:5px;}
 ul.splash_social{margin:35px 10% 55px 10%;}
 .slide-to-navigate{ font-size:18px; line-height:40px;}
