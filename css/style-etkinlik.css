@@ -9,7 +9,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 /* General Setup
 /*-----------------------------------------------------------------------------------*/
 html{ height:100%;}
-body{font-family:Arial, Helvetica, sans-serif;padding:0;font-size:12px;margin:0 auto;height: 100%;position: relative;line-height:19px;}
+body{font-family:PT Sans, Arial, Helvetica, sans-serif;padding:0;font-size:12px;margin:0 auto;height: 100%;position: relative;line-height:19px;}
 a, span.tag{ text-decoration:none;}
 a.view_details{padding:0 0 0 15px;}
 .swiper-container{ width:800px;height: 100%;}
@@ -35,9 +35,17 @@ h2.post_title{ font-size:26px;padding:0 0 20px 0; line-height:28px;}
 .radius20{-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px;}
 
 /*----------bottom bullets pagination---------------*/
-.pagination {position: absolute;z-index: 20;left:0px;top:50px;text-align:center;width:100%; background: rgb(231,52,61);}
-.swiper-pagination-switch {display: inline-block;width:50%;height:34px;background: whitesmoke;margin-bottom: 1px; cursor: pointer;}
-.swiper-active-switch {display: inline-block; height: 31px; background: rgb(231,52,61) url(img/phone.png) no-repeat center; background-color:whitesmoke; margin-bottom:4px; cursor: pointer;}
+.pagination {position: absolute;z-index: 100;left:0px;top:44px;text-align:center; width:100%; 
+background-image: url(img/ticket.png), url(img/gps.png);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size:32px 32px, 30px 30px;
+background-position: 25% 44px, 75% 44px; 
+background-color: whitesmoke;
+}
+.swiper-pagination-switch {display: inline-block;width:50%;height:38px; background:url(img/trans_black.png) repeat-x bottom; margin-bottom: 0px; cursor: pointer;}
+.swiper-active-switch {display: inline-block; height: 4px; 
+background-color: rgb(231,52,61); margin-bottom:0px; cursor: pointer;}
 /*----------header and footer buttons---------------*/
 .gohome{ width:44px; height:44px; float:left; margin:0 0 0 0;}
 .gohome a{ color:#FFFFFF; text-decoration:none; font-weight:bold; font-size:12px; display:block; text-align:center;}
