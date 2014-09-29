@@ -39,7 +39,6 @@ h2.post_title{ font-size:26px;padding:0 0 20px 0; line-height:28px;}
 background-image: url(img/ticket.png), url(img/gps.png);
 background-repeat: no-repeat;
 background-attachment: fixed;
-background-size:32px 32px, 30px 30px;
 background-position: 25% 44px, 75% 44px; 
 background-color: whitesmoke;
 }
