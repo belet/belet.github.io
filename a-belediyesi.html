@@ -1,0 +1,191 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+<title>A Belediyesi</title>
+<link rel="apple-touch-startup-image" href="images/apple-touch-startup-image-320x460.png" />
+<link type="text/css" rel="stylesheet" href="css/style-etkinlik.css"/>
+<link type="text/css" rel="stylesheet" href="colors/splash/splash-belediye.css"/>
+<link type="text/css" rel="stylesheet" href="css/idangerous.swiper.css"/>
+<link type="text/css" rel="stylesheet" href="css/swipebox.css" />
+<link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css' />
+<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+<script src="js/jquery.validate.min.js" type="text/javascript"></script>
+
+
+<style>
+#img-switcher {
+    width: 0px;
+    height: 0px;
+    visibility: hidden;
+    position: absolute;
+}
+#img-switcher + label {
+    background-image: url(images/icons/takvimarti.png);
+	margin-top:6px;
+    width: 34px;
+    height: 34px;
+    display: block;
+    background-size: cover;
+}
+#img-switcher:checked + label {
+    background-image: url(images/icons/takvimeksi.png);
+}
+</style>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+        $('input[type="checkbox"]').click(function(){
+            if($(this).prop("checked") == true){
+                alert("Etkinlik takvime eklendi.");
+            }
+            else if($(this).prop("checked") == false){
+                alert("Etkinlik takvimden çıkarıldı.");
+            } 	
+        });
+    });
+</script>
+
+<style>
+.degis {
+background-color: transparent;
+}
+
+.degis:active {
+background-color: rgb(0,52,61);
+}
+
+</style>
+
+	<style type="text/css">
+input[type=checkbox] {
+display:none;
+}
+
+
+
+</style>
+</head>
+<body>
+  <div style="top: 0px; opacity: 0.5;" id="header">
+      <div class="gohome degis"><a href="start-index.html"><img src="images/icons/back.png"/></a></div><div class="gohome" style="width:68%; font-size:16px;margin-top:7px;">A Belediyesi</div>
+	  <div class="gomenu degis"><input id="img-switcher" type="checkbox"></input><label for="img-switcher"></label></div>
+			<div style="visibility:hidden;" class="pagination"></div>
+  </div>
+  
+  <div style="background-image: url(assets/fullimage4.jpg); background-repeat:no-repeat; background-position:top; background-size:100%" class="swiper-container swiper-parent">
+    <div class="swiper-wrapper">
+
+
+
+      
+<!--Page 1 content-->
+      <div class="swiper-slide sliderbg">
+	  <div ></div>
+      <div class="swiper-container swiper-nested">
+	  <center><div style="margin-top:15%; background-color:#06a78b; width:30%; vertical-align:middle" class="image_single radius4"><img src="images/icons/logo.png" border="0" /></div></center>
+	  <div style="height:20px;"class="button_11"><center><span style="font-size:20px;margin-left:2px;"><b>A Belediyesi</b></span></center></div>	
+	  	  <div style="height:30px;"class="button_11"><center><span style="font-size:13px;margin-left:2px;"><img src="images/sociall.png" border="0" /></span></center></div>
+											
+               <div class="swiper-wrapper" style="top: -30px;">
+                    <div class="swiper-slide">
+                              <div class="slide-inner" >
+                                        <div class="pages_container">
+						<div style="border:0px rgb(231,52,61) solid; height:40px;"class="button_11"><center><a href="#" onclick='alert("Takibe alındı.");show("a61"); hide("a60");' style="color:white;"class="button_katil bluegreen bluegreen_borderbottom radius8">Takip Et</a></center></div>
+										<div style="border:0px rgb(231,52,61) solid; height:40px;"class="button_11"><span style="font-size:13px;margin-left:2px;"><span id="a60" style="display:block;"><img src="images/katilimci.png"> 60 kişi takip ediyor.</span><span id="a61" style="display:none;"><img src="images/katilimci.png"> 61 kişi takip ediyor.</span> </div>
+                                        <h3>Hakkında</h3>
+                                        <p>Örnek etkinlik yazısı, etkinlik yazısı. Örnek etkinlik yazısı, etkinlik yazısı. Örnek etkinlik yazısı, etkinlik yazısı.</p>
+                                        
+                                        <h3>Liste</h3>
+                                        <ul class="listing">
+                                        <li>Sanatçı</li>
+                                        <li>Konuşmacı</li>
+                                        <li>Etkinlik içeriği</li>
+                                        </ul>
+										
+										<h3>Hakkında</h3>
+                                        <p>Örnek etkinlik yazısı, etkinlik yazısı. Örnek etkinlik yazısı, etkinlik yazısı. Örnek etkinlik yazısı, etkinlik yazısı.</p>
+                                        
+                                        <h3>Liste</h3>
+                                        <ul class="listing">
+                                        <li>Sanatçı</li>
+                                        <li>Konuşmacı</li>
+                                        <li>Etkinlik içeriği</li>
+                                        </ul>
+										
+										
+										<h3>Hakkında</h3>
+                                        <p>Örnek etkinlik yazısı, etkinlik yazısı. Örnek etkinlik yazısı, etkinlik yazısı. Örnek etkinlik yazısı, etkinlik yazısı.</p>
+                                        
+                                        <h3>Liste</h3>
+                                        <ul class="listing">
+                                        <li>Sanatçı</li>
+                                        <li>Konuşmacı</li>
+                                        <li>Etkinlik içeriği</li>
+                                        </ul>
+										
+										<h3>Hakkında</h3>
+                                        <p>Örnek etkinlik yazısı, etkinlik yazısı. Örnek etkinlik yazısı, etkinlik yazısı. Örnek etkinlik yazısı, etkinlik yazısı.</p>
+                                        
+                                        <h3>Liste</h3>
+                                        <ul class="listing">
+                                        <li>Sanatçı</li>
+                                        <li>Konuşmacı</li>
+                                        <li>Etkinlik içeriği</li>
+                                        </ul>
+										
+										
+										<h3>Hakkında</h3>
+                                        <p>Örnek etkinlik yazısı, etkinlik yazısı. Örnek etkinlik yazısı, etkinlik yazısı. Örnek etkinlik yazısı, etkinlik yazısı.</p>
+                                        
+                                        <h3>Liste</h3>
+                                        <ul class="listing">
+                                        <li>Sanatçı</li>
+                                        <li>Konuşmacı</li>
+                                        <li>Etkinlik içeriği</li>
+                                        </ul>
+										
+										
+										
+                                          
+										     <ul class="social">
+                                            <li class="social_facebook radius20"><a href="#"><img src="images/icons/social/facebook.png" alt="" title="" border="0" /></a></li>
+                                            <li class="social_twitter radius20"><a href="#"><img src="images/icons/social/twitter.png" alt="" title="" border="0" /></a></li>
+                                            <li class="social_google radius20"><a href="#"><img src="images/icons/social/google.png" alt="" title="" border="0" /></a></li>
+											</ul>
+                                        
+                                        <div class="clearfix"></div>
+      									<div class="scrolltop radius20"><a href="#"><img src="images/icons/top.png" alt="Yukarı Çık" title="Yukarı Çık" /></a></div>
+                                        </div>
+                                        <!--End of page container-->
+                              </div>
+                    </div>
+              </div>
+              <div class="swiper-scrollbar"></div>
+     </div>
+     </div>
+	 
+	 
+	 
+	 <!--page2-->
+       
+     <!--End of pages--> 
+
+    </div>
+
+  </div>
+<script type="text/javascript" src="js/jquery.swipebox.js"></script>
+<script type="text/javascript" src="js/idangerous.swiper-2.1.min.js"></script>
+<script type="text/javascript" src="js/idangerous.swiper.scrollbar-2.1.js"></script>
+<script type="text/javascript" src="js/jquery.tabify.js"></script>
+<script type="text/javascript" src="js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="js/splash.js"></script>
+<script type="text/javascript" src="js/load.js"></script>
+<!--Twitter Feed-->
+
+</body>
+</html>

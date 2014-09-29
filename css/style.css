@@ -35,7 +35,7 @@ h2.post_title{ font-size:26px;padding:0 0 20px 0; line-height:28px;}
 .radius20{-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px;}
 
 /*----------bottom bullets pagination---------------*/
-.pagination {position: absolute;z-index: 100;left:0px;top:44px;text-align:center; width:100%; 
+.pagination {position: absolute; left:0px;top:44px;text-align:center; width:100%; 
 background-image: url(img/home2.png), url(img/gps.png), url(img/law.png), url(img/calendar.png), url(img/services.png);
 background-repeat: no-repeat;
 background-attachment: fixed;
