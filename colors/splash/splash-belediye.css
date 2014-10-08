@@ -18,10 +18,6 @@ h2.page_title{color:#5e5e5e;}
 .menu{ width:100%; padding:0px;margin:90px 0 50px 0;}
 .menu ul{ list-style:none; padding:0px; margin:0px; width:100%;}
 .menu ul li{ list-style:none; margin:1% 0 2% 4%; padding:5.5% 0; width:28%;height:auto; float:left; display:block; text-align:center;
-/*background-image: url(images/transparent_circle.png);
-background-repeat: no-repeat;
-background-position: center center; 
-background-size: cover;*/
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
